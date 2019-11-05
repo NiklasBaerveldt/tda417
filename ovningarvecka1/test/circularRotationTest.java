@@ -8,7 +8,6 @@ class circularRotationTest {
         String s = "HEJSAN";
         String t = rotateCircularly(s,5);
         assertTrue(circularRotation.isCircularlyRotated(s,t));
-        assertFalse(circularRotation.isCircularlyRotated("AB","BA"));
         assertFalse(circularRotation.isCircularlyRotated("A", "AA"));
         assertTrue(circularRotation.isCircularlyRotated("",""));
     }
