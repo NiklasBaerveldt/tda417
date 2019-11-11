@@ -23,5 +23,10 @@ public class reverseArrayTest {
         b = new Integer[]{4,3,2,1};
         reverseArray.reverse(a);
         assertTrue(Arrays.equals(a, b));
+        Character[] s = {'H','E','J'};
+        Character[] s1 = {'J','E','H'};;
+        reverseArray.reverse(s);
+        assertTrue(Arrays.equals(s, s1));
+
     }
 }
